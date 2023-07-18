@@ -20,6 +20,11 @@ body {
     background-color: var(--GrisClaro);
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 nav {
     background-color: var(--Amarillo);   
     font-size: 12px;  
@@ -131,6 +136,9 @@ img {
     display: none;      
 }
 
+.articulo:hover .descripcion{
+    display: block;
+}
 
 .producto__informacion {    
     border-top: 1px solid #ebebeb;
@@ -252,6 +260,20 @@ footer {
         transform: rotate(-90deg);
     }
 
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pie{
+        margin: auto;
+        width: 30%;
+    }
+
+    .derechos{
+        margin-top: 20px;
+        width: 100%;
+    }
     .encabezado{
         /*border: dotted 2px olivedrab;*/
         display: flex;
